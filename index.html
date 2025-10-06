@@ -1,6 +1,6 @@
 <!--Unit 2 Project
 Requirements
-[  ] Two Element Selectors
+[ x ] Two Element Selectors
 [ x ] Two ID Selectors
 [ x ] Two Class Selectors
 [ x ] Three Images
@@ -10,7 +10,7 @@ Select ONE Additional Feature to Add
 [ yes ] Feature 2 - Include a Static Background Image
 [ no ] Feature 3 - Include An Animated Background Color Change
 [ no ] Feature 4 - Embed YouTube Video 
-[ no ] Feature 5 - Include Border CSS Property 
+[ yes ] Feature 5 - Include Border CSS Property 
 -->
     
 <!DOCTYPE HTML>
@@ -27,20 +27,101 @@ Select ONE Additional Feature to Add
         body {text-align:center}
         body {color:aliceblue}
     h1 {font-size: 150px;
-    text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;}}
-    h2 {font-size: 100px;}
+    text-shadow: 
+    -2px -2px 0 #000000, 
+    2px -2px 0 #000000, 
+    -2px 2px 0 #000000, 
+    2px 2px 0 #000000;}
+    h1 {margin-bottom: -0.6em;}
+    h2 {font-size: 75px;}
     h3 {font-size: 75px;}
-    p {font-size: 25px;}
+    p {font-size: 35px;}
     ul {font-size: 25px;}
+    ul {background-color: #161515;}
+    ul {text-align:left}
     ol {font-size: 25px}
-    ol {text-align:left}
+    #the-end {background-color: #161515;}
     .gameplay {border: 5px solid #ffffff;}
     .gameplay {width: 600px;}
-    #moss-grotto {color:#82d477}
-    #moss-grotto {text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;}
-    #the-marrow {color:#6b6b6b}
-    #moss-grotto {text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;}
-.divide{display: flex; 
+    #gif {border: 5px solid #ffffff;}
+    .warning {text-shadow: 
+        -1px -1px 0 #000000, 
+        1px -1px 0 #000000, 
+        -1px 1px 0 #000000, 
+        1px 1px 0 #000000;}
+    #moss-grotto {color:#2b3829}
+    #moss-grotto {text-shadow: 
+        -1px -1px 0 #ffffff, 
+        1px -1px 0 #ffffff, 
+        -1px 1px 0 #ffffff, 
+        1px 1px 0 #ffffff;}
+    #the-marrow {color:#3b3838}
+    #the-marrow {text-shadow: 
+        -1px -1px 0 #ffffff, 
+        1px -1px 0 #ffffff, 
+        -1px 1px 0 #ffffff, 
+        1px 1px 0 #ffffff;}
+    #deep-docks {color:#411b1b}
+    #deep-docks {text-shadow: 
+        -1px -1px 0 #ffffff, 
+        1px -1px 0 #ffffff, 
+        -1px 1px 0 #ffffff, 
+        1px 1px 0 #ffffff;}
+    #far-fields {color:#3c4935}
+    #far-fields {text-shadow: 
+        -1px -1px 0 #ffffff, 
+        1px -1px 0 #ffffff, 
+        -1px 1px 0 #ffffff, 
+        1px 1px 0 #ffffff;}
+    #greymoor {color:#292b37}
+    #greymoor {text-shadow: 
+        -1px -1px 0 #ffffff, 
+        1px -1px 0 #ffffff, 
+        -1px 1px 0 #ffffff, 
+        1px 1px 0 #ffffff;}
+    #shellwood {color:#262f2b}
+    #shellwood {text-shadow: 
+        -1px -1px 0 #ffffff, 
+        1px -1px 0 #ffffff, 
+        -1px 1px 0 #ffffff, 
+        1px 1px 0 #ffffff;}
+    #blasted-steps {color:#3e3b33}
+    #blasted-steps {text-shadow: 
+        -1px -1px 0 #ffffff, 
+        1px -1px 0 #ffffff, 
+        -1px 1px 0 #ffffff, 
+        1px 1px 0 #ffffff;}
+    #citadel {color:#3b3319}
+    #citadel {text-shadow: 
+        -1px -1px 0 #ffffff, 
+        1px -1px 0 #ffffff, 
+        -1px 1px 0 #ffffff, 
+        1px 1px 0 #ffffff;}
+    #the-slab {color:#262a3c}
+    #the-slab {text-shadow: 
+        -1px -1px 0 #ffffff, 
+        1px -1px 0 #ffffff, 
+        -1px 1px 0 #ffffff, 
+        1px 1px 0 #ffffff;}
+    #mount-fay {color:#182146}
+    #mount-fay {text-shadow: 
+        -1px -1px 0 #ffffff, 
+        1px -1px 0 #ffffff, 
+        -1px 1px 0 #ffffff, 
+        1px 1px 0 #ffffff;}
+    #sinners-road {color:#302f25}
+    #sinners-road {text-shadow: 
+        -1px -1px 0 #ffffff, 
+        1px -1px 0 #ffffff, 
+        -1px 1px 0 #ffffff, 
+        1px 1px 0 #ffffff;}
+    #bilewater {color:#242f2c}
+    #bilewater {text-shadow: 
+        -1px -1px 0 #ffffff, 
+        1px -1px 0 #ffffff, 
+        -1px 1px 0 #ffffff, 
+        1px 1px 0 #ffffff;}
+    .divide {display: flex; 
     align-items: center; 
     max-width: fit-content;
     margin-left: auto;
@@ -48,19 +129,29 @@ Select ONE Additional Feature to Add
 </style>
 
     <body>
-        <h1>A Guide to Pharloom</h1>
+        <h1 class="warning">A Guide to Pharloom</h1>
+        <h2 class="warning">(+ my opinions...)</h2>
+        <h2 class="warning">The Map</h2>
 
-         <h3 id="moss-grotto">The Moss Grotto</h3>
+                    <img src="https://cdn.wikimg.net/en/hkwiki/images/d/d9/SS_NavMap.png" width="1000px">
+
+        <h2 class="warning">Important Locations</h2>
+
+        <h3 id="moss-grotto">The Moss Grotto</h3>
 
         <div class="divide">
             <div>
-                    <img class="gameplay" src="https://allthings.how/content/images/2025/09/image-1167-1.png">
+                    <img class="gameplay" src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/hollow-knight-silksong/c/c0/Hollow_Knight_Silksong_Walkthrough_Moss_Grotto.jpg">
             </div>
             <div>
-                <ol>
+                <ul>
                     <li>Starting point of the game.</li>
-                    <li>You get introduced to Hornet's 45 degree down slash <br> (didnt know I had to do math mid confrentation...).</li>
-                </ol>
+                    <li>You get introduced to Hornet's 45 degree down slash <br> 
+                        (didnt know I had to do math mid confrentation...).</li>
+                    <li>Enemies are extremely easy, but act as a good intro!</li>
+                    <li>Very pretty, I love the overgrown theme.</li>
+                    <li>Moss Mother... exists...</li>
+                </ul>
             </div>
         </div>
 
@@ -71,11 +162,191 @@ Select ONE Additional Feature to Add
                     <img class="gameplay" src="https://static0.dualshockersimages.com/wordpress/wp-content/uploads/2025/09/the-marrow-hollow-knight-silksong.jpg?q=49&fit=crop&w=825&dpr=2">
             </div>
             <div>
-                <ol>
-                    <li>Fight the Bell Beast (w boss).</li>
+                <ul>
+                    <li>You fight the Bell Beast (w boss).</li>
+                    <li>You also fight the Skull Tyrant (not a W boss)</li>
                     <li>The Flea Caravan is... there... (I prefered the grubs).</li>
-                </ol>
+                    <li>Acts as a passageway to other areas.</li>
+                </ul>
             </div>
         </div>
+
+        <h3 id="deep-docks">The Deep Docks</h3>
+
+        <div class="divide">
+            <div>
+                    <img class="gameplay" src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/hollow-knight-silksong/1/10/Hollow_Knight_Silksong_Walkthrough_Deep_Docks.jpg">
+            </div>
+            <div>
+                <ul>
+                    <li>Basically The Marrow, but a little more steampunk.</li>
+                    <li>Honestly... forgettable...</li>
+                    <li>You fight Lace pt. 1 and the forebrothers.</li>
+                    <li>The enemies are kind of cute so thats nice!</li>
+                </ul>
+            </div>
+        </div>
+
+        <h3 id="far-fields">The Far Fields</h3>
+
+        <div class="divide">
+            <div>
+                    <img class="gameplay" src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/hollow-knight-silksong/4/45/Hollow_Knight_Silksong_Far_Fields.jpg">
+            </div>
+            <div>
+                <ul>
+                    <li>Temple of the Beast, but WHO is using that form.</li>
+                    <li>You fight the Savage Beastfly (omg NEVER again).</li>
+                    <li>Theres that one quest with the pins that makes <br>
+                        you THINK you glitched but you need to get the <br>
+                        balloon cloak to leave...</li>
+                </ul>
+            </div>
+        </div>
+
+        <h3 id="greymoor">Greymoor</h3>
+
+        <div class="divide">
+            <div>
+                    <img class="gameplay" src="https://allthings.how/content/images/2025/09/Greymoor-Hollow-Knight.png">
+            </div>
+            <div>
+                <ul>
+                    <li>Reminded me of Stilt Village from Dead Cells.</li>
+                    <li>You fight Moorwing (Top 5 Silksong bosses.).</li>
+                    <li>The Halfway House was super cozy, I'd never leave.</li>
+                    <li>I feel like a 24 hour long video of Hornet on a <br>
+                    Greymoor bench would actually get me to study.</li>
+                </ul>
+            </div>
+        </div>
+
+        <h3 id="shellwood">Shellwood</h3>
+
+        <div class="divide">
+            <div>
+                    <img class="gameplay" src="https://intoindiegames.com/wp-content/uploads/Hollow-Knight-Silksong-7-00003-1024x576.jpg">
+            </div>
+            <div>
+                <ul>
+                    <li>Shellwood is Greymoor and Moss Grotto's baby.</li>
+                    <li>You fight Sister Splinter, Nyleth, and Seth. <br>
+                    (Genuinely who are Nyleth and Seth what...)</li>
+                    <li>Um, why are there floating flowers that EXPLODE?</li>
+                    <li>I spent like MAYBE 2 seconds here.</li>
+                </ul>
+            </div>
+        </div>
+
+        <h3 id="blasted-steps">The Blasted Steps</h3>
+
+        <div class="divide">
+            <div>
+                    <img class="gameplay" src="https://static0.dualshockersimages.com/wordpress/wp-content/uploads/2025/09/steps.jpg?q=49&fit=contain&w=750&h=422&dpr=2">
+            </div>
+            <div>
+                <ul>
+                    <li>A more whimsical version of Jedha from Star <br>
+                        Wars: Jedi Survivor.</li>
+                    <li>You fight the Last Judge (more like my last straw...).</li>
+                    <li>How do you get to the Sands of Karak from here??</li>
+                    <li>Daily hurricanes.</li>
+                </ul>
+            </div>
+        </div>
+
+        <h3 id="citadel">The Citadel</h3>
+
+        <div class="divide">
+            <div>
+                    <img class="gameplay" src="https://static0.dualshockersimages.com/wordpress/wp-content/uploads/2025/09/choral-chambers-opening-silksong.jpg?q=49&fit=contain&w=750&h=422&dpr=2">
+            </div>
+            <div>
+                <ul>
+                    <li>The way they seperated the Citadel map drove me <br>
+                        INSANE.</li>
+                    <li>You fight a gazillion bosses (Actually like 10 but...).</li>
+                    <li>By this point, I was loosing it.</li>
+                    <li>Insanely pretty area.</li>
+                </ul>
+            </div>
+        </div>
+
+        <h3 id="the-slab">The Slab</h3>
+
+        <div class="divide">
+            <div>
+                    <img class="gameplay" src="https://i.ytimg.com/vi/6a9dVioO0Ko/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGEAgXihlMA8=&rs=AOn4CLAMeSZ7fw8iYX1kpHVAJH9mmxn1Eg">
+            </div>
+            <div>
+                <ul>
+                    <li>Why did I get teleported here midway through Act 1?</li>
+                    <li>You fight... the prisonkeepers?</li>
+                    <li>Amazing side quest, 10/10 reccomend.</li>
+                    <li>I never found the Apostate Key...</li>
+                </ul>
+            </div>
+        </div>
+
+        <h3 id="mount-fay">Mount Fay</h3>
+
+        <div class="divide">
+            <div>
+                    <img class="gameplay" src="https://i.ytimg.com/vi/1-WgTUJwtyI/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGCUgSSh_MA8=&rs=AOn4CLAqUqJlFSSUbwi5XP7Ex5Su4b0_QQ">
+            </div>
+            <div>
+                <ul>
+                    <li>Mothwing cloak my BELOVED.</li>
+                    <li>You fight... nothing?</li>
+                    <li>The parkour here was so fun. (dont mention the<br>
+                        freeze mechanic...)</li>
+                    <li>As a snow lover, I really enjoyed this area's visuals.</li>
+                </ul>
+            </div>
+        </div>
+
+            <h2 class="warning">Areas I Would Rather Forget</h2>
+
+        <h3 id="sinners-road">The Sinner's Road</h3>
+
+        <div class="divide">
+            <div>
+                    <img class="gameplay" src="https://cdn.staticneo.com/ew/thumb/a/ae/BK_SILK_068.jpg/600px-BK_SILK_068.jpg">
+            </div>
+            <div>
+                <ul>
+                    <li>The sigh of relief I let out when I left...</li>
+                    <li>The guys that hide under cloaks were SO annoying.</li>
+                    <li>I never want to fight one of those chain things <br>
+                        again they made me want to cry...</li>
+                    <li>I could smell the sewer trough my screen.</li>
+                </ul>
+            </div>
+        </div>
+
+        <h3 id="bilewater">Bilewater</h3>
+
+        <div class="divide">
+            <div>
+                    <img class="gameplay" src="https://pbs.twimg.com/media/G0bqWk_XAAA-n8U.jpg">
+            </div>
+            <div>
+                <ul>
+                    <li>Imagine my suprise when I finished Sinner's Road <br>
+                        just to figure out that Bilewater was WORSE.</li>
+                    <li>My image quality finally got better again.</li>
+                    <li>I have NEVER experienced a worse boss runback...</li>
+                    <li>I could smell the sewer trough my screen pt. 2.</li>
+                </ul>
+            </div>
+        </div>
+
+        <p>‎ </p>
+
+        <img id="gif" src="https://media.tenor.com/OHxZKNs6vxsAAAAM/hollow-knight-silk-song.gif" width="200">
+
+        <p id="the-end">The end! Thanks for listening to me rant about Silksong :D <br>
+        There were a couple areas I skipped, so you should definitely go play the game for yourself!</p>
+
     </body>
 </html>
