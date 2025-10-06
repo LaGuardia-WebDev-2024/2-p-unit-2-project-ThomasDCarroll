@@ -1,8 +1,8 @@
 <!--Unit 2 Project
 Requirements
 [  ] Two Element Selectors
-[  ] Two ID Selectors
-[  ] Two Class Selectors
+[ x ] Two ID Selectors
+[ x ] Two Class Selectors
 [ x ] Three Images
 
 Select ONE Additional Feature to Add  
@@ -26,28 +26,54 @@ Select ONE Additional Feature to Add
     background-attachment: fixed;}
         body {text-align:center}
         body {color:aliceblue}
-    h1 {font-size: 150px;}
+    h1 {font-size: 150px;
+    text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;}}
     h2 {font-size: 100px;}
     h3 {font-size: 75px;}
+    p {font-size: 25px;}
+    ul {font-size: 25px;}
+    ol {font-size: 25px}
+    ol {text-align:left}
     .gameplay {border: 5px solid #ffffff;}
     .gameplay {width: 600px;}
-    .gameplay {float: left; margin-left: 300px;}
-    #moss-grotto{color:#82d477}
+    #moss-grotto {color:#82d477}
+    #moss-grotto {text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;}
+    #moss-grotto {color:#6b6b6b}
+    #moss-grotto {text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;}
+.divide{display: flex; 
+    align-items: center; 
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;}
 </style>
 
     <body>
-        <h1>Visit Pharloom</h1>
+        <h1>A Guide to Pharloom</h1>
 
-        <img src="https://cdn.wikimg.net/en/hkwiki/images/thumb/d/d9/SS_NavMap.png/800px-SS_NavMap.png" alt="https://cdn.wikimg.net/en/hkwiki/images/thumb/d/d9/SS_NavMap.png/800px-SS_NavMap.png">
-        
-        <h2>The Biomes of Pharloom</h2>
+         <h3 id="the-marrow">The Maarrow</h3>
 
-        <h3 id="moss-grotto">The Moss Grotto</h3>
-        <ol>
-            <li>Starting point of the game.</li>
-            <li>You get introduced to Hornet's 45 degree down slash. <br> (didnt know I had to do math mid confrentation)</li>
-        </ol>
+        <div class="divide">
+            <div>
+                    <img class="gameplay" src="https://allthings.how/content/images/2025/09/image-1167-1.png">
+            </div>
+            <div>
+                <ol>
+                    <li>Starting point of the game.</li>
+                    <li>You get introduced to Hornet's 45 degree down slash. <br> (didnt know I had to do math mid confrentation...)</li>
+                </ol>
+            </div>
+        </div>https://static0.dualshockersimages.com/wordpress/wp-content/uploads/2025/09/the-marrow-hollow-knight-silksong.jpg?q=49&fit=crop&w=825&dpr=2
 
-        <img class="gameplay" src="https://allthings.how/content/images/2025/09/image-1167-1.png"
+        <div class="divide">
+            <div>
+                    <img class="gameplay" src="https://static0.dualshockersimages.com/wordpress/wp-content/uploads/2025/09/the-marrow-hollow-knight-silksong.jpg?q=49&fit=crop&w=825&dpr=2">
+            </div>
+            <div>
+                <ol>
+                    <li>Starting point of the game.</li>
+                    <li>You get introduced to Hornet's 45 degree down slash. <br> (didnt know I had to do math mid confrentation...)</li>
+                </ol>
+            </div>
+        </div>
     </body>
 </html>
